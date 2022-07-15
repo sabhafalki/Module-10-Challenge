@@ -2,7 +2,7 @@
 # Overview of Project #
 The purpose of this Project is to create a Robin's web app to gather data from all the websites by web scraping.She wants to create portfolio, so that she can share it with Astroport, Nasa one day. She vistes many sites with news about space exploration especially Mission to Mars.She had been admiring images of Mars’s hemispheres online and realized that the site is scraping-friendly. She would like to adjust the current web app to include all four of the hemisphere images. To do this, you’ll use BeautifulSoup and Splinter to scrape full-resolution images of Mars’s hemispheres and the titles of those images, store the scraped data on a Mongo database, use a web application to display the data, and alter the design of the web app to accommodate these images.
 
-The analysis consisted of the following:
+The web Scaping consisted of the following:
 1. Scrape Full-Resolution Mars Hemisphere Images and Titles
 2. Update the Web App with Mars Hemisphere Images and Titles
 3. Add Bootstrap 3 Components
@@ -14,19 +14,20 @@ The analysis consisted of the following:
   - https://spaceimages-mars.com
   - https://galaxyfacts-mars.com
   - https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/<br>
+  
 - Software:<br>
-  Python<br>
-  Jupyter Notebook<br>
-  Pandas, BeautifulSoup, Splinter, ChromeDriverManager, Flask, PyMongo<br>
-  MongoDB<br>
-  HTML5<br>
-  Bootstrap 3<br>
+   Python<br>
+   Jupyter Notebook<br>
+   Pandas, BeautifulSoup, Splinter, ChromeDriverManager, Flask, PyMongo<br>
+   MongoDB<br>
+   HTML5<br>
+   Bootstrap 3<br>
+   <br><br>
 # Results #
-## an ETL Function to Read Three Data Files ##
-To Extract the three data files (wiki, kaggle, movielens). MovieLens is a website run by the GroupLens research group at the University of Minnesota. The Kaggle dataset pulls from the MovieLens dataset of over 20 million reviews and contains a metadata file with details about the movies from The Movie Database.<br>
-
-The following depicts the wiki_movies_df DataFrame:<br>
-![Movie_DataFrame](/Image/Wiki_Movies.png) <br>
+## Scrape Full-Resolution Mars Hemisphere Images and Titles and Update the Web App ##
+The website url consist of four Mars Hemisphere news articals alog with images and title for each Mars Hemispher.Using BeautifulSoup and Splinter, retrieve a full-resolution image and title for each hemisphere. The Mongo database is updated to contain the full-resolution image URL and title for each hemisphere image.
+The following depicts the scapped code:<br>
+![code](/Image/code.png) <br>
 
 The following depicts the kaggle_metadata DataFrame: <br>
 ![MataData](/Image/kaggle_metadata.png) <br>
