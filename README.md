@@ -29,12 +29,6 @@ The website url consists of four Mars Hemisphere news articals along with images
 The following depicts the scapped code:<br>
 ![code](/Image/code.png) <br>
 
-The following depicts the kaggle_metadata DataFrame: <br>
-![MataData](/Image/kaggle_metadata.png) <br>
-
-The following depicts the ratings DataFrame: <br>
-![Ratings](/Image/Rating.png) <br>
-
 ##  Add Bootstrap 3 Components ##
 We have added the following additional bootstrap components:
 1. Changed the Button CSS Style
