@@ -33,7 +33,8 @@ The following depicts the scapped code:<br>
 We have added the following additional bootstrap components:
 1. Changed the Button CSS Style
 2. Changed the format of the Text and Layout
-3. Chnaged the Layout and format of the Table<br>
+3. Changed the Layout and format of the Table
+4. Added the hemisphere images as thumbnails <br>
 ![fig1](/Image/fig1.png) <br>
 <br><br>
 ![fig2](/Image/fig2.png) <br>
