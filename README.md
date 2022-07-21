@@ -38,3 +38,9 @@ We have added the following additional bootstrap components:
 <br><br>
 ![fig2](/Image/fig2.png) <br>
 <br><br>
+
+![fig3](/Image/fig3.png) <br>
+<br><br>
+
+![fig4](/Image/fig4.png) <br>
+<br><br>
